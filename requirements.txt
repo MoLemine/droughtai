@@ -1,0 +1,29 @@
+# ── Deep Learning / YOLO ──────────────────────────────────────────────────
+ultralytics          # YOLOv8
+opencv-python        # Lecture/écriture images
+torch                # Deep learning
+torchvision          # Vision utilities
+Pillow
+PyYAML
+tqdm
+
+# ── Machine Learning ──────────────────────────────────────────────────────
+scikit-learn         # Random Forest, Gradient Boosting, SVM, KNN, LR
+xgboost              # XGBoost
+lightgbm             # LightGBM
+
+# ── Data / Visualisation ──────────────────────────────────────────────────
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+
+# ── API Flask ─────────────────────────────────────────────────────────────
+flask
+flask-cors
+requests
+
+# ── Datasets (optionnel) ──────────────────────────────────────────────────
+roboflow
+kaggle

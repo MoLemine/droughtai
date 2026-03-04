@@ -1,0 +1,16 @@
+/node_modules
+/public/build
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpactor.json
+*.phar
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode

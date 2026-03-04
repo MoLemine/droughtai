@@ -1,0 +1,95 @@
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environment ───────────────────────────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ── Modèles entraînés (trop lourds pour GitHub) ───────────────────────────
+models/*.pt
+models/*.pkl
+models/*.h5
+models/*.onnx
+*.pt
+*.pkl
+
+# ── Datasets (trop lourds) ────────────────────────────────────────────────
+data/kaggle/
+data/github/
+data/raw/
+data/final/images/
+data/final/labels/
+*.zip
+*.tar.gz
+*.csv
+
+# ── Résultats entraînement YOLO ───────────────────────────────────────────
+results/
+runs/
+*.npy
+
+# ── Fichiers temporaires Python ───────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+
+# ── Laravel ───────────────────────────────────────────────────────────────
+drought_ai_laravel/vendor/
+drought_ai_laravel/node_modules/
+drought_ai_laravel/.env
+drought_ai_laravel/storage/app/public/analyses/
+drought_ai_laravel/storage/logs/
+drought_ai_laravel/bootstrap/cache/
+drought_ai_laravel/public/storage
+
+# ── Environnement ─────────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+*.env
+
+# ── API Keys / Secrets ────────────────────────────────────────────────────
+kaggle.json
+*.key
+secrets.json
+
+# ── OS ────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# ── IDE ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Jupyter ───────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Ce qu'on GARDE sur GitHub ─────────────────────────────────────────────
+# ✅ scripts/         → tous les scripts Python
+# ✅ api/app.py       → API Flask
+# ✅ ml/              → scripts ML
+# ✅ drought_ai_laravel/ (sans vendor/ et .env)
+# ✅ requirements.txt
+# ✅ train.py
+# ✅ prepare_kaggle.py
+# ✅ README.md
+# ✅ data/drought.yaml
+# ✅ data/final/data.yaml
+# ✅ models/ml_metrics.json  → métriques seulement (pas les .pkl/.pt)

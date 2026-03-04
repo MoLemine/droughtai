@@ -1,0 +1,16 @@
+# DroughtAI — YOLO Dataset Configuration
+# Classes de detection agricole Sahel / Mauritanie
+
+path: ../data
+train: images/train
+val:   images/val
+test:  images/test
+
+nc: 6
+names:
+  0: sol_craquele       # Sol craquele / secheresse severe
+  1: vegetation_saine   # Vegetation verte saine
+  2: stress_hydrique    # Vegetation jaunissante / stressee
+  3: sol_nu             # Sol nu brun / desertification
+  4: eau_irrigation     # Eau / irrigation visible
+  5: vegetation_morte   # Vegetation morte / dessechee

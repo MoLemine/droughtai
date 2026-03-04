@@ -1,0 +1,16 @@
+# DroughtAI YOLO — Dataset Final
+# Généré par prepare_kaggle.py
+
+path: ./data/final
+train: images/train
+val:   images/val
+test:  images/test
+
+nc: 6
+names:
+  0: sol_craquele
+  1: vegetation_saine
+  2: stress_hydrique
+  3: sol_nu
+  4: eau_irrigation
+  5: vegetation_morte
