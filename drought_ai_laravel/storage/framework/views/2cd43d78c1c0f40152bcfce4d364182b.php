@@ -3,7 +3,7 @@
 
 <div class="ph">
   <h1>📊 Tableau de bord</h1>
-  <p>Sécheresse agricole — Mauritanie & Vallée du Fleuve Sénégal · 2018–2023</p>
+  <p>Sécheresse agricole — Mauritanie & Vallée du Fleuve Sénégal · </p>
 </div>
 
 <?php if(!$online): ?>
@@ -19,7 +19,7 @@
 
 <div class="g2" style="margin-bottom:1.25rem">
   <div class="card">
-    <div class="ch"><div class="ci" style="background:#dcfce7">🗺️</div><h3>Carte des risques — 2023</h3></div>
+    <div class="ch"><div class="ci" style="background:#dcfce7">🗺️</div><h3>Carte des risques </h3></div>
     <div id="lmap" style="height:300px;border-radius:0"></div>
   </div>
   <div class="card">
@@ -114,5 +114,4 @@ const dist=<?php echo json_encode($distribution??[], 15, 512) ?>;
 new Chart(document.getElementById('ch-dist'),{type:'doughnut',data:{labels:dist.map(d=>d.label),datasets:[{data:dist.map(d=>d.count),backgroundColor:['#22c55e','#eab308','#f97316','#ef4444','#7c3aed'],borderWidth:2,borderColor:'#fff'}]},options:{responsive:true,cutout:'62%',plugins:{legend:{display:false}}}});
 </script>
 <?php $__env->stopPush(); ?>
-
 <?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\Users\Mohame Lemine\Desktop\drought_yolo\drought_ai_laravel\resources\views/dashboard/index.blade.php ENDPATH**/ ?>

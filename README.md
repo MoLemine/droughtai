@@ -115,7 +115,7 @@ drought_yolo/
 
 ### 1. Cloner le projet
 ```bash
-git clone https://github.com/TON_USERNAME/droughtai.git
+git clone https://github.com/Molemine/droughtai.git
 cd droughtai
 ```
 
@@ -224,7 +224,7 @@ curl -X POST http://127.0.0.1:5000/api/predict \
 
 ---
 
-## ❓ Pourquoi les modèles (.pt, .pkl) ne sont pas sur GitHub ?
+<!-- ## ❓ Pourquoi les modèles (.pt, .pkl) ne sont pas sur GitHub ?
 
 Les fichiers modèles sont **exclus du dépôt** pour 3 raisons :
 
@@ -234,7 +234,7 @@ Les fichiers modèles sont **exclus du dépôt** pour 3 raisons :
 
 3. **Sécurité** : Un modèle `.pkl` peut contenir du code arbitraire — ne jamais faire confiance à un `.pkl` téléchargé d'une source inconnue.
 
-**Pour partager les modèles**, utilise [Hugging Face Hub](https://huggingface.co) ou [GitHub Releases](https://github.com/TON_USERNAME/droughtai/releases).
+**Pour partager les modèles**, utilise [Hugging Face Hub](https://huggingface.co) ou [GitHub Releases](https://github.com/TON_USERNAME/droughtai/releases). -->
 
 ---
 
@@ -269,7 +269,7 @@ Les fichiers modèles sont **exclus du dépôt** pour 3 raisons :
 
 ## 👤 Auteur
 
-**Mohame Lemine** — Projet DroughtAI  
+**Mohame Lemine Tah & Elhafed Khatri** — Projet DroughtAI  
 Mauritanie 🇲🇷
 
 ---

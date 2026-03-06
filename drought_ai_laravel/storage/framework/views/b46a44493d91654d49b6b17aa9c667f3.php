@@ -137,7 +137,7 @@ main{flex:1;max-width:1260px;width:100%;margin:0 auto;padding:2rem 1.5rem}
 
 <nav>
   <a href="<?php echo e(route('dashboard')); ?>" class="logo">
-    🌵 DroughtAI <span class="logo-tag">v2.0</span>
+    🌵 DroughtAI <span class="logo-tag">v1.0</span>
   </a>
   <a href="<?php echo e(route('dashboard')); ?>"  class="nav-a <?php echo e(request()->routeIs('dashboard') ?'on':''); ?>"><span class="nicon">📊</span><span>Tableau de bord</span></a>
   <a href="<?php echo e(route('predict')); ?>"    class="nav-a <?php echo e(request()->routeIs('predict*')  ?'on':''); ?>"><span class="nicon">🎯</span><span>Prédiction</span></a>
@@ -154,7 +154,7 @@ main{flex:1;max-width:1260px;width:100%;margin:0 auto;padding:2rem 1.5rem}
 <main><?php echo $__env->yieldContent('content'); ?></main>
 
 <footer style="text-align:center;padding:1.1rem;font-size:.72rem;color:var(--mu);border-top:1px solid var(--bd);background:var(--w)">
-  DroughtAI v2.0 · Mauritanie & Vallée du Fleuve Sénégal · Gradient Boosting F1=86.6% · <a href="http://192.168.100.37:5000/api/health" target="_blank" style="color:var(--g)">API Flask</a>
+  DroughtAI v1.0 · Mauritanie & Vallée du Fleuve Sénégal  <a href="http://192.168.100.37:5000/api/health" target="_blank" style="color:var(--g)">Universite Nouakchott-FST</a>
 </footer>
 
 <?php echo $__env->yieldPushContent('scripts'); ?>

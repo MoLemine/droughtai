@@ -4,7 +4,7 @@
 
 <div class="ph">
   <h1>📊 Tableau de bord</h1>
-  <p>Sécheresse agricole — Mauritanie & Vallée du Fleuve Sénégal · 2018–2023</p>
+  <p>Sécheresse agricole — Mauritanie & Vallée du Fleuve Sénégal · </p>
 </div>
 
 @if(!$online)
@@ -20,7 +20,7 @@
 
 <div class="g2" style="margin-bottom:1.25rem">
   <div class="card">
-    <div class="ch"><div class="ci" style="background:#dcfce7">🗺️</div><h3>Carte des risques — 2023</h3></div>
+    <div class="ch"><div class="ci" style="background:#dcfce7">🗺️</div><h3>Carte des risques </h3></div>
     <div id="lmap" style="height:300px;border-radius:0"></div>
   </div>
   <div class="card">

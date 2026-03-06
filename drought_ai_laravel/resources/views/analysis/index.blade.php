@@ -49,9 +49,9 @@
             </div>
           </div>
 
-          <div class="alert a-demo" style="margin-top:.65rem">
+          <!-- <div class="alert a-demo" style="margin-top:.65rem">
             💡 Sans <strong>CLAUDE_API_KEY</strong> dans .env → résultat de <strong>démonstration</strong>. Avec la clé → analyse IA réelle de vos photos.
-          </div>
+          </div> -->
 
           <button type="submit" class="btn btn-g btn-w btn-lg" id="abtn" style="margin-top:.8rem" disabled>
             🔍 Analyser avec l'IA
